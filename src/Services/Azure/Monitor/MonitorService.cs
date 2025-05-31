@@ -78,7 +78,7 @@ public class MonitorService(ISubscriptionService subscriptionService, ITenantSer
                         var rowDict = new JsonObject();
                         for (int i = 0; i < columns.Count; i++)
                         {
-                            rowDict[columns[i].Name] = JsonNode.Parse(row[i]?.ToString() ?? "null");
+                            rowDict[columns[i].Name] = JsonValue.Create(row[i]?.ToString() ?? "null");
                         }
                         results.Add(rowDict);
                     }
