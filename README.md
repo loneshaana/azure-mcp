@@ -152,6 +152,12 @@ The Azure MCP Server provides Azure SDK and Azure CLI developer tools. It can be
 
 ### Installation
 
+#### Getting Started Video
+
+Here's a short (16 seconds) video to help you get the Azure MCP Server installed in VS Code.
+
+https://github.com/user-attachments/assets/535f393c-0ed2-479d-9b24-5ca933293c92
+
 #### ✨ One-Click Install
 
 Click one of these buttons to install the Azure MCP Server for VS Code or VS Code Insiders.
